@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomepageTechnicalSupprot</title>
+    <style>
+        .TCIsle{
+            margin: 15%;
+            background: black;
+        }
+        .TCimg{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            z-index: 1;
+        }
+        .TCimg img{
+            width: 40vw;
+            border-radius: 40px;
+        }
+        .TCimg p{
+            color: white;
+            position: absolute;
+            margin-top: 3em;
+            padding: 2em;
+            margin-bottom: 3em;
+            font-size: 3.3em;
+             text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+        }
+        .TCMMM{
+            border: 30px solid;
+            height: 40vh;
+            width: 35vw;
+            position: absolute;
+            margin-top: -19vh;
+            margin-left: 29%;
+            border-image: url(images/technicalSupport.jpg) 30 round;
+            z-index: 10;
+        }
+        .TCMMM p{
+            margin: 20px;
+            font-size: 105%;
+            letter-spacing: 0.1em;
+            color: white;
+            font-weight: 800;
+        }
+        .TCMMM a{
+            display: flex;
+            justify-content: center;
+            font-size: 2em;
+            text-decoration: none;
+            border: 1px solid black;
+            width: 40%;
+            margin-left: 20vh;
+            background-image: url(images/technicalSupport.jpg);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="TC_Isle">
+        <div class="TCimg">
+            <p>Technical Support</p>
+            <img src="images/technicalSupport.jpg" alt="">
+        </div>
+        <div class="TCMMM">
+            <p>Whether you have questions, encounter technical hurdles,
+                or seek clarifications, our dedicated support team is
+                here to help. Contact us for any support you need,
+                and let us ensure that your experience with our
+                    products and services remains smooth and satisfying.
+                    Your queries are our priority—reach out to us, and
+                    let's navigate through any technical challenges together</p>
+            <a href="#">Explore</a>          
+        </div>
+    </section>    
+</body>
+</html>
