@@ -16,6 +16,9 @@
     color: #eee;
     font-family: "Poppins" , sans-serif;
   }
+  .hamburger-menu{
+    display: none;
+}
   
   nav ul a{
       font-size: 13px;
@@ -448,3 +451,63 @@ footer{
   background:#ff5100; /* Set the color of the scroll thumb on hover */
   border-radius: 1.3em;
 }
+@media screen and (max-width: 768px) {
+  .overlaidAboutMessage{
+      display: none;
+  }
+  .logo {
+      display: none;
+  }
+
+  nav {
+      display: none;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      background-color: #743a05ab;
+  }
+
+  nav ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul li {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #d6582a;
+  }
+
+  nav ul li:last-child {
+      border-bottom: none;
+  }
+
+  .hamburger-menu {
+      display: block;
+  }
+
+  .hamburger-menu button {
+      font-size: 24px;
+      background: none;
+      border: none;
+      color: #7e410f;
+  }
+}
+
+/* Show navigation when hamburger button is clicked */
+#nav-menu.active {
+  display: block;
+}
+
+/* Hide dropdown in mobile view */
+@media screen and (max-width: 768px) {
+  .dropdown {
+      display: none;
+  }
+}
+   
+
