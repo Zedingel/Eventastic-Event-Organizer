@@ -116,7 +116,7 @@ window.addEventListener("scroll",function(event){
 });
 
 
-// TESTIMONIAL
+// TESTIMONIAL  
 document.querySelectorAll(".box").forEach(box => {
     VanillaTilt.init(box, {
         max: 10,
@@ -139,7 +139,7 @@ var sticky = navbar.offsetTop;function myFunction() {
 
   function bookEvent() {
     // Redirect to the booking page
-    window.location.href = "bookEvent.html"; 
+    window.location.href = "RbookEvent.html"; 
 }
 
 
@@ -163,3 +163,6 @@ fetch('Eventastic.css')
     .then(cssText => {
         convertExternalCssPxToEm(cssText);
     });
+
+
+    
