@@ -100,13 +100,12 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-## Contact
-
-For any inquiries or issues, please contact:
-
-- **Email:** Eventastic@info.com
-- **Phone:** (+251)9-0000-0000
-- **Address:** Datsun, Piassa - 41
+##Group Members Contributed to this project Name & (HILCOE's ID)
+1. Zedingel Beniyam  (VR8773)
+2. Robel Yitbarek    (YO3703)
+3. Natnael Girma  (PX8079)
+4. Surafeal Abdu  (QA3088)
+5. Mussie Mengistu  (KO6389) 
 
 Thank you for using Eventastic!
 
