@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "postcss-cli": "^11.0.0",
+    "postcss-pxtorem": "^6.1.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.41",
+    "postcss-px-to-viewport": "^1.1.1"
+  }
+}
